@@ -31,6 +31,8 @@
 -  (5) asyncio.ensure_future(obj, *, loop=None)
 
 # 4. 安排协程
-asyncio.gather(*aws, loop=None, return_exceprions=False)
-asyncio.wait(aws, *, loop=None, timeout=None, return_whenALL_COMPLETED)
-aysncio.wait_for(fut, timeout, *, loop=None)
+- asyncio.gather(*aws, loop=None, return_exceprions=False)
+
+- asyncio.wait(aws, *, loop=None, timeout=None, return_whenALL_COMPLETED)
+
+- aysncio.wait_for(fut, timeout, *, loop=None)
